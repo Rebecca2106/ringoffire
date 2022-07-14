@@ -1,0 +1,45 @@
+.startscreen {
+  height: 100vh;
+  width: 100vw;
+  max-height: 100%;
+  max-width: 100%;
+  background-color: #ccc;
+  background-image: url(/assets/bar-g0b0b0d953_1920.jpg);
+  // background-image: url(/assets/fairy-lights-g237add76f_1920.jpg);
+  // background-image: url(/assets/crystal-ball-photography-g3f81cbdb3_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+  .startmenu{    
+    width: 80vw;
+    height: 56.7264817836vw;
+    background-image: url(/assets/bg_full.75806460ed7bdc00.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+  text-shadow: 0 0 3px #FF0000;
+
+  text-shadow: 2px 2px 8px #FF0000;}
+
+.label{
+  width: 40vw;
+  height: 9.3vw;
+  margin-top: 30%;
+  color: #a31919;
+  cursor: pointer;
+  font-size: 2.5vw;
+  font-weight: bold;
+  background-image: url(/assets/label.289a4c36b21c37bd.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
