@@ -12,24 +12,28 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;}
-
-  .startmenu{    
-    width: 80vw;
-    height: 56.7264817836vw;
-    background-image: url(/assets/bg_full.75806460ed7bdc00.png);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  align-items: center;
 }
 
-h2{
+.startmenu {
+  width: 80vw;
+  height: 56.7264817836vw;
+  background-image: url(/assets/bg_full.75806460ed7bdc00.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8em;
   text-shadow: 0 0 3px #FF0000;
+  text-shadow: 2px 2px 8px #FF0000;
+  margin: unset;
+}
 
-  text-shadow: 2px 2px 8px #FF0000;}
-
-.label{
+.label {
   width: 40vw;
   height: 9.3vw;
   margin-top: 30%;
