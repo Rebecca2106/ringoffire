@@ -4,7 +4,7 @@
   max-height: 100%;
   max-width: 100%;
   background-color: #ccc;
-  background-image: url(/assets/bar-g0b0b0d953_1920.jpg);
+  background-image: url('^assets/bar-g0b0b0d953_1920.jpg');
   // background-image: url(/assets/fairy-lights-g237add76f_1920.jpg);
   // background-image: url(/assets/crystal-ball-photography-g3f81cbdb3_1920.jpg);
   background-position: center;
@@ -18,7 +18,7 @@
 .startmenu {
   width: 80vw;
   height: 56.7264817836vw;
-  background-image: url(/assets/bg_full.75806460ed7bdc00.png);
+  background-image: url('^assets/bg_fullsmall.png');
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -41,9 +41,18 @@ h2 {
   cursor: pointer;
   font-size: 2.5vw;
   font-weight: bold;
-  background-image: url(/assets/label.289a4c36b21c37bd.png);
+  background-image: url('^assets/label.289a4c36b21c37bd.png');
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 700px){
+    width: 60vw;
+    height: 14vw;
+    font-size: 2.9vw;
+
+    
+
+  }
 }

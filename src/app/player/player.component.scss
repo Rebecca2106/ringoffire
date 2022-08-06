@@ -1,20 +1,23 @@
-.player{
-
+.player {
+    overflow: hidden;
     display: flex;
     align-items: center;
     width: 300px;
-    background: rgba(118,73,36,0.5);
+    background: rgba(118, 73, 36, 0.5);
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
 
 
-    span{
-        font-size: 30px;
+    span {
+        font-size: 24px;
         margin-left: 16px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
 
     }
 
-    img{
+    img {
         width: 70px;
         height: 70px;
         object-fit: cover;
@@ -23,5 +26,6 @@
     }
 }
 
-.player-active{
-    background: linear-gradient(0deg, rgba(204,141,1,1) 11%, rgba(253,187,45,1) 100%);}
+.player-active {
+    background: linear-gradient(0deg, rgba(204, 141, 1, 1) 11%, rgba(253, 187, 45, 1) 100%);
+}

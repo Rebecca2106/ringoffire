@@ -9,6 +9,7 @@ export class PlayerComponent implements OnInit {
 
   @Input() name;
   @Input() playerActive:boolean =false;
+  @Input() image='assets/fish-gdc537c3a8_640.png'
 
   constructor() { }
 
